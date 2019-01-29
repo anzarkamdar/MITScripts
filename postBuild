@@ -4,4 +4,4 @@ jupyter nbextension enable --py --sys-prefix qgrid
 jupyter nbextension enable python-markdown/main
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
-jupyter trust MIT%20SC3x/Week%201/Workbooks/Order%20Batching%20Bullwhip.ipynb
+jupyter trust /MITSC3x/Week1/Workbooks/OrderBatchingBullwhip.ipynb
