@@ -1,8 +1,6 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable --py widgetsnbextension
-jupyter nbextension enable --py --sys-prefix qgrid
-jupyter nbextension enable python-markdown/main
+jupyter nbextension enable --py --sys-prefix qgridjupyter nbextension enable python-markdown/main
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
-jupyter trust Order Batching Bullwhip.ipynb
 jupyter trust "MITSC3x/Week 1/Workbooks/Order Batching Bullwhip.ipynb"
